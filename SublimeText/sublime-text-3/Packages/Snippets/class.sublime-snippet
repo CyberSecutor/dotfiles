@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * ${1:short class description)
+ *
+ * @package $2
+ * @subpackage $3
+ */
+
+namespace $4;
+
+/**
+ * ${5: longer class description}
+ */
+class ${6:Name}
+{
+    /**
+     * The constructor for ${TM_FILENAME/^(.*)\.php$/$+/}
+     *
+     * ${7:@param }
+     */
+    public function __construct($8)
+    {
+        $9
+    }
+}
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,5 @@
+{
+     // The number of spaces a tab is considered equal to
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true
+}
