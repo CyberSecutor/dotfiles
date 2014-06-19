@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * $1
+ *
+ * @param ${2:string} ${3:$value}
+ * @return ${TM_FILENAME/^(.*)\.php$/$+/} $this
+ */
+${3:public} function ${4:name}($2)
+{
+    ${5:code}
+
+    return $this;
+}
+
+]]></content>
+    <tabTrigger>func</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
