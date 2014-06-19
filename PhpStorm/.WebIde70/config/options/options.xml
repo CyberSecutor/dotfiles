@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="DimensionService">
-    <location key="ReplaceDuplicatesPrompt.0.0.1920.1080" x="694" y="499" />
-    <location key="replaceTextDialog.0.0.1920.1080" x="613" y="297" />
-    <location key="RegExHelpPopup.0.0.1920.1080" x="1922" y="557" />
-    <location key="OptionsEditor.0.0.1920.1080" x="500" y="265" />
-    <location key="WELCOME_SCREEN.0.0.1920.1080" x="981" y="542" />
-    <location key="FileChooserDialogImpl.0.0.1920.1080" x="733" y="435" />
-    <location key="#Interpreters.0.0.1920.1080" x="559" y="191" />
-    <location key="#PHP.0.0.1920.1080" x="725" y="218" />
-    <location key="findTextDialog.0.0.1920.1080" x="777" y="504" />
-    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="444" y="224" />
     <location key="PhpDebugFileChooserDialog.0.0.1920.1080" x="793" y="321" />
-    <size key="ReplaceDuplicatesPrompt.0.0.1920.1080" width="564" height="104" />
-    <size key="replaceTextDialog.0.0.1920.1080" width="404" height="538" />
-    <size key="RegExHelpPopup.0.0.1920.1080" width="602" height="331" />
-    <size key="OptionsEditor.0.0.1920.1080" width="1107" height="762" />
-    <size key="FileChooserDialogImpl.0.0.1920.1080" width="426" height="492" />
-    <size key="javadoc.popup.0.0.1920.1080" width="602" height="419" />
-    <size key="#Interpreters.0.0.1920.1080" width="824" height="690" />
-    <size key="#PHP.0.0.1920.1080" width="502" height="637" />
-    <size key="findTextDialog.0.0.1920.1080" width="399" height="514" />
-    <size key="PhpDebugFileChooserDialog.0.0.1920.1080" width="324" height="408" />
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1878" height="382" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1878" height="382" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1878" height="382" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1878" height="382" />
-    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1878" height="382" />
-    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1878" height="382" />
-    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1878" height="382" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="444" y="224" />
+    <location key="findTextDialog.0.0.1920.1080" x="777" y="504" />
+    <location key="#PHP.0.0.1920.1080" x="725" y="218" />
+    <location key="#Interpreters.0.0.1920.1080" x="559" y="191" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="733" y="435" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="981" y="542" />
+    <location key="OptionsEditor.0.0.1920.1080" x="500" y="265" />
+    <location key="RegExHelpPopup.0.0.1920.1080" x="1922" y="557" />
+    <location key="replaceTextDialog.0.0.1920.1080" x="613" y="297" />
+    <location key="ReplaceDuplicatesPrompt.0.0.1920.1080" x="694" y="499" />
+    <size key="GotoFile_FileTypePopup.0.0.1920.1080" width="200" height="200" />
     <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1878" height="382" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1878" height="382" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1878" height="382" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1878" height="382" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1878" height="382" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1878" height="382" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1878" height="382" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1878" height="382" />
+    <size key="PhpDebugFileChooserDialog.0.0.1920.1080" width="324" height="408" />
+    <size key="findTextDialog.0.0.1920.1080" width="399" height="514" />
+    <size key="#PHP.0.0.1920.1080" width="502" height="637" />
+    <size key="#Interpreters.0.0.1920.1080" width="824" height="690" />
+    <size key="javadoc.popup.0.0.1920.1080" width="602" height="419" />
+    <size key="FileChooserDialogImpl.0.0.1920.1080" width="426" height="492" />
+    <size key="OptionsEditor.0.0.1920.1080" width="1107" height="762" />
+    <size key="RegExHelpPopup.0.0.1920.1080" width="602" height="331" />
+    <size key="replaceTextDialog.0.0.1920.1080" width="404" height="538" />
+    <size key="ReplaceDuplicatesPrompt.0.0.1920.1080" width="564" height="104" />
   </component>
   <component name="LafManager">
     <laf class-name="idea.dark.laf.classname" />
