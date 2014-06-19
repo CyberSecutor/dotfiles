@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="file-type">
+      <project id="hotelmodules" values="JavaScript,UNKNOWN,PHP,C++,Native,Ini,SQL,YAML,htaccess,XML,Perl,HTML,Images,JSON,CSS,PHAR,PLAIN_TEXT" />
+      <project id="git" values="JSON,Ini,CoffeeScript,UNKNOWN,LESS,Twig,JavaScript,PLAIN_TEXT,ARCHIVE,PHP,SQL,Images,Perl,SmartyConfig,CSS,PHAR,HTML,Native,YAML,ASP,XML,htaccess,JSHint,C++,ReST,Smarty" />
+    </group>
+    <group name="JavaScript versions">
+      <project id="hotelmodules" values="DEFAULT" />
+      <project id="git" values="DEFAULT" />
+    </group>
+    <group name="vcs">
+      <project id="hotelmodules" values="Git" />
+    </group>
+    <group name="php-include-path">
+      <project id="hotelmodules" values="0" />
+      <project id="git" values="0" />
+    </group>
+    <group name="php-interpreters">
+      <project id="hotelmodules" values="0" />
+      <project id="git" values="0" />
+    </group>
+    <group name="php-servers">
+      <project id="hotelmodules" values="0" />
+      <project id="git" values="1" />
+    </group>
+    <group name="php-interpreter-version">
+      <project id="hotelmodules" values="not installed" />
+      <project id="git" values="not installed" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="hotelmodules" values="Project,Project" />
+      <project id="git" values="Project,Project" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="hotelmodules" values="0" />
+      <project id="git" values="0" />
+    </group>
+    <group name="php-server-debug-ext">
+      <project id="git" values="xdebug" />
+    </group>
+    <group name="module type">
+      <project id="hotelmodules" values="WEB_MODULE" />
+      <project id="git" values="WEB_MODULE" />
+    </group>
+  </component>
+</application>
+
