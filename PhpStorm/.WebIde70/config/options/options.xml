@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
   <component name="DimensionService">
+    <location key="dock-window-1.0.0.1920.1080" x="782" y="61" />
+    <location key="#Live_Templates.0.0.1920.1080" x="273" y="152" />
+    <location key="#com.intellij.codeInsight.template.impl.EditVariableDialog.0.0.1920.1080" x="732" y="308" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" x="788" y="350" />
     <location key="PhpDebugFileChooserDialog.0.0.1920.1080" x="793" y="321" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="444" y="224" />
-    <location key="findTextDialog.0.0.1920.1080" x="777" y="504" />
+    <location key="findTextDialog.0.0.1920.1080" x="777" y="532" />
     <location key="#PHP.0.0.1920.1080" x="725" y="218" />
     <location key="#Interpreters.0.0.1920.1080" x="559" y="191" />
     <location key="FileChooserDialogImpl.0.0.1920.1080" x="733" y="435" />
     <location key="WELCOME_SCREEN.0.0.1920.1080" x="981" y="542" />
-    <location key="OptionsEditor.0.0.1920.1080" x="500" y="265" />
+    <location key="OptionsEditor.0.0.1920.1080" x="156" y="198" />
     <location key="RegExHelpPopup.0.0.1920.1080" x="1922" y="557" />
     <location key="replaceTextDialog.0.0.1920.1080" x="613" y="297" />
     <location key="ReplaceDuplicatesPrompt.0.0.1920.1080" x="694" y="499" />
+    <size key="dock-window-1.0.0.1920.1080" width="867" height="1036" />
+    <size key="#Live_Templates.0.0.1920.1080" width="843" height="804" />
+    <size key="#com.intellij.codeInsight.template.impl.EditVariableDialog.0.0.1920.1080" width="958" height="438" />
+    <size key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" width="374" height="541" />
     <size key="GotoFile_FileTypePopup.0.0.1920.1080" width="200" height="200" />
     <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1878" height="382" />
     <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1878" height="382" />
@@ -27,10 +35,11 @@
     <size key="#Interpreters.0.0.1920.1080" width="824" height="690" />
     <size key="javadoc.popup.0.0.1920.1080" width="602" height="419" />
     <size key="FileChooserDialogImpl.0.0.1920.1080" width="426" height="492" />
-    <size key="OptionsEditor.0.0.1920.1080" width="1107" height="762" />
+    <size key="OptionsEditor.0.0.1920.1080" width="971" height="750" />
     <size key="RegExHelpPopup.0.0.1920.1080" width="602" height="331" />
     <size key="replaceTextDialog.0.0.1920.1080" width="404" height="538" />
     <size key="ReplaceDuplicatesPrompt.0.0.1920.1080" width="564" height="104" />
+    <extendedState key="dock-window-1" state="0" />
   </component>
   <component name="LafManager">
     <laf class-name="idea.dark.laf.classname" />
@@ -58,6 +67,9 @@
     <property name="INSPECTION_FILTER_HISTORY" value="spel&#10;&quot;New in 13&quot;" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="RunConfigurable.dividerProportion" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
 </application>
 

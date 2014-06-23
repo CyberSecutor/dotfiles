@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="user">
+  <template name="var" value="/**&#10; * $DESCRIPTION$.&#10; *&#10; * @var $TYPE$ $VARNAME$&#10; */&#10;private $VARNAME$;" description="PHP - var declaration block" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="&quot;Description&quot;" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <variable name="VARNAME" expression="" defaultValue="&quot;$value&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="funcg" value="/**&#10; * $DESCRIPTION$.&#10; *&#10; * @return $TYPE$ $RETURNDESCRIPTION$&#10; * @throws \LogicException $THROWDESCRIPTION$.&#10; */&#10;$VISIBILITY$ function get$FUNCNAME$()&#10;{&#10;    if (!isset($PROPERTY$)) {&#10;        throw new LogicException('$PROPERTY$ has not been set');&#10;    }&#10;&#10;    return $PROPERTY$;&#10;}" description="PHP - Getter function" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIPTION" expression="" defaultValue="&quot;Description&quot;" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <variable name="RETURNDESCRIPTION" expression="" defaultValue="&quot;Return description&quot;" alwaysStopAt="true" />
+    <variable name="THROWDESCRIPTION" expression="" defaultValue="&quot;Throws description&quot;" alwaysStopAt="true" />
+    <variable name="VISIBILITY" expression="" defaultValue="&quot;public&quot;" alwaysStopAt="true" />
+    <variable name="FUNCNAME" expression="" defaultValue="&quot;FunctionName&quot;" alwaysStopAt="true" />
+    <variable name="PROPERTY" expression="" defaultValue="&quot;$property&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="func" value="/**&#10; * $Description$.&#10; *&#10; * @param $ParamType$ $ParamName$ $ParamDescription$&#10; * @return $ReturnType$ $ReturnDescription$&#10; */&#10;$Visibility$ function $FuncName$($ParamType$ $ParamName$)&#10;{&#10;    $END$&#10;}" description="PHP - Generic worker function" toReformat="false" toShortenFQNames="true">
+    <variable name="Description" expression="" defaultValue="&quot;Description&quot;" alwaysStopAt="true" />
+    <variable name="ParamType" expression="" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
+    <variable name="ParamName" expression="" defaultValue="&quot;$value&quot;" alwaysStopAt="true" />
+    <variable name="ParamDescription" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <variable name="ReturnType" expression="" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
+    <variable name="ReturnDescription" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
+    <variable name="Visibility" expression="" defaultValue="&quot;private&quot;" alwaysStopAt="true" />
+    <variable name="FuncName" expression="" defaultValue="&quot;FunctionName&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="SQL" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="PHP" value="true" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
+

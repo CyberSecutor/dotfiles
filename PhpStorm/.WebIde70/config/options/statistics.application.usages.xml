@@ -2,8 +2,8 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="file-type">
-      <project id="hotelmodules" values="Ini,Images,UNKNOWN,Perl,CSS,YAML,JavaScript,C++,htaccess,PHAR,PLAIN_TEXT,HTML,Native,XML,PHP,JSON,SQL" />
-      <project id="git" values="PLAIN_TEXT,XML,Ini,SmartyConfig,JSON,Perl,Twig,HTML,JavaScript,UNKNOWN,SQL,C++,Images,ARCHIVE,Native,ASP,CSS,JSHint,YAML,LESS,ReST,PHP,htaccess,PHAR,Smarty,CoffeeScript" />
+      <project id="hotelmodules" values="Native,UNKNOWN,JSON,PLAIN_TEXT,YAML,CSS,Ini,PHAR,JavaScript,htaccess,Perl,SQL,C++,HTML,PHP,Images,XML" />
+      <project id="git" values="Twig,Images,ASP,XML,ReST,Perl,PLAIN_TEXT,C++,JSHint,CoffeeScript,Native,SmartyConfig,HTML,ARCHIVE,CSS,JavaScript,UNKNOWN,SQL,PHAR,Smarty,Ini,JSON,YAML,PHP,htaccess,LESS" />
     </group>
     <group name="JavaScript versions">
       <project id="hotelmodules" values="DEFAULT" />

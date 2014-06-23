@@ -59,21 +59,21 @@
     <option name="FIND_ORIGIN" value="from_cursor" />
     <option name="FIND_SCOPE" value="global" />
     <option name="FIND_CUSTOM_SCOPE" />
-    <option name="CASE_SENSITIVE_SEARCH" value="false" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="false" />
     <option name="PRESERVE_CASE_REPLACE" value="false" />
     <option name="WHOLE_WORDS_ONLY" value="false" />
     <option name="COMMENTS_ONLY" value="false" />
     <option name="STRING_LITERALS_ONLY" value="false" />
     <option name="LOCAL_WHOLE_WORDS_ONLY" value="false" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="false" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="false" />
     <option name="WITH_SUBDIRECTORIES" value="true" />
     <option name="SEARCH_SCOPE" value="Current File" />
     <option name="FILE_MASK" value="*.php,*.class" />
     <option name="RECENT_FIND_STRINGS">
       <value>
-        <list size="11">
+        <list size="20">
           <item index="0" class="java.lang.String" itemvalue="INSERT INTO Bills" />
           <item index="1" class="java.lang.String" itemvalue="INSERT INTO `bills`" />
           <item index="2" class="java.lang.String" itemvalue="insert_bills" />
@@ -85,6 +85,15 @@
           <item index="8" class="java.lang.String" itemvalue="  (?!  )" />
           <item index="9" class="java.lang.String" itemvalue="  (?&lt;!    )" />
           <item index="10" class="java.lang.String" itemvalue="  (?&lt;!  )" />
+          <item index="11" class="java.lang.String" itemvalue="currency" />
+          <item index="12" class="java.lang.String" itemvalue="id" />
+          <item index="13" class="java.lang.String" itemvalue="* @throws InvalidArgumentException when no callback was given      " />
+          <item index="14" class="java.lang.String" itemvalue="__const" />
+          <item index="15" class="java.lang.String" itemvalue="startSearch" />
+          <item index="16" class="java.lang.String" itemvalue="find" />
+          <item index="17" class="java.lang.String" itemvalue="fetchDe" />
+          <item index="18" class="java.lang.String" itemvalue="$destinationId" />
+          <item index="19" class="java.lang.String" itemvalue="fetchDestinationDetails" />
         </list>
       </value>
     </option>
@@ -211,7 +220,7 @@
       </value>
     </option>
     <option name="CHECK_NEEDED" value="true" />
-    <option name="LAST_TIME_CHECKED" value="1403187032428" />
+    <option name="LAST_TIME_CHECKED" value="1403507856429" />
     <option name="LAST_BUILD_CHECKED" value="PS-133.982" />
     <option name="UPDATE_CHANNEL_TYPE" value="release" />
   </component>
