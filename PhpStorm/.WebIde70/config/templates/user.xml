@@ -52,7 +52,7 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
-  <template name="func" value="/**&#10; * $Description$.&#10; *&#10; * @param $ParamType$ $ParamName$ $ParamDescription$&#10; * @return $ReturnType$ $ReturnDescription$&#10; */&#10;$Visibility$ function $FuncName$($ParamType$ $ParamName$)&#10;{&#10;    $END$&#10;}" description="PHP - Generic worker function" toReformat="false" toShortenFQNames="true">
+  <template name="func" value="/**&#10; * $Description$.&#10; *&#10; * @param $ParamType$ $ParamName$ $ParamDescription$&#10; * @return $ReturnType$ $ReturnDescription$&#10; */&#10;$Visibility$ function $funcName$($ParamType$ $ParamName$)&#10;{&#10;    $END$&#10;}" description="PHP - Generic worker function" toReformat="false" toShortenFQNames="true">
     <variable name="Description" expression="" defaultValue="&quot;Description&quot;" alwaysStopAt="true" />
     <variable name="ParamType" expression="" defaultValue="&quot;string&quot;" alwaysStopAt="true" />
     <variable name="ParamName" expression="" defaultValue="&quot;$value&quot;" alwaysStopAt="true" />
@@ -60,7 +60,7 @@
     <variable name="ReturnType" expression="" defaultValue="&quot;void&quot;" alwaysStopAt="true" />
     <variable name="ReturnDescription" expression="" defaultValue="&quot;description&quot;" alwaysStopAt="true" />
     <variable name="Visibility" expression="" defaultValue="&quot;private&quot;" alwaysStopAt="true" />
-    <variable name="FuncName" expression="" defaultValue="&quot;FunctionName&quot;" alwaysStopAt="true" />
+    <variable name="funcName" expression="" defaultValue="&quot;functionName&quot;" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="false" />
       <option name="HTML" value="false" />

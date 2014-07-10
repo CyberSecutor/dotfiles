@@ -4,6 +4,8 @@
     <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;" />
     <extensionMap>
       <mapping ext="class" type="PHP" />
+      <mapping pattern="temp" type="PLAIN_TEXT" />
+      <mapping pattern="tempxml" type="XML" />
     </extensionMap>
   </component>
 </application>

@@ -1,0 +1,2 @@
+ConnectTimeout 180
+ServerAliveInterval=15

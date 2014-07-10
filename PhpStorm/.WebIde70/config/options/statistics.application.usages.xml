@@ -2,8 +2,11 @@
 <application>
   <component name="StatisticsApplicationUsages">
     <group name="file-type">
-      <project id="hotelmodules" values="Native,UNKNOWN,JSON,PLAIN_TEXT,YAML,CSS,Ini,PHAR,JavaScript,htaccess,Perl,SQL,C++,HTML,PHP,Images,XML" />
-      <project id="git" values="Twig,Images,ASP,XML,ReST,Perl,PLAIN_TEXT,C++,JSHint,CoffeeScript,Native,SmartyConfig,HTML,ARCHIVE,CSS,JavaScript,UNKNOWN,SQL,PHAR,Smarty,Ini,JSON,YAML,PHP,htaccess,LESS" />
+      <project id="hotelmodules" values="C++,YAML,Native,UNKNOWN,PHP,HTML,XML,PLAIN_TEXT,CSS,JavaScript,JSON,Ini,htaccess,SQL,Perl,PHAR,Images" />
+      <project id="git" values="CSS,Bash,SmartyConfig,htaccess,PHAR,JSON,DTD,ReST,LESS,DATASOURCE_STORAGE,CoffeeScript,JavaScript,SQL,YAML,HTML,Twig,PATCH,XML,ARCHIVE,Perl,ASP,Images,C++,Ini,JSHint,UNKNOWN,Native,PHP,Smarty,PLAIN_TEXT" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="git" values="com.mysql.jdbc.Driver" />
     </group>
     <group name="JavaScript versions">
       <project id="hotelmodules" values="DEFAULT" />
@@ -11,6 +14,10 @@
     </group>
     <group name="vcs">
       <project id="hotelmodules" values="Git" />
+      <project id="git" values="Git" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="git" values="MySQL/5.5.37-0ubuntu0.14.04.1" />
     </group>
     <group name="php-include-path">
       <project id="hotelmodules" values="0" />
@@ -22,7 +29,7 @@
     </group>
     <group name="php-servers">
       <project id="hotelmodules" values="0" />
-      <project id="git" values="1" />
+      <project id="git" values="3" />
     </group>
     <group name="php-interpreter-version">
       <project id="hotelmodules" values="not installed" />
@@ -36,13 +43,15 @@
       <project id="hotelmodules" values="0" />
       <project id="git" values="0" />
     </group>
-    <group name="php-server-debug-ext">
-      <project id="git" values="xdebug" />
-    </group>
     <group name="module type">
       <project id="hotelmodules" values="WEB_MODULE" />
       <project id="git" values="WEB_MODULE" />
     </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="4" />
+    </counts>
   </component>
 </application>
 

@@ -3,6 +3,12 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="bash.vardef" />
+        <option value="bash.includers" />
+        <option value="bash.included" />
+        <option value="bash.script.fullname" />
+        <option value="bash.script.name" />
+        <option value="bash.function.name" />
         <option value="Scss.mixin" />
         <option value="Scss.function" />
         <option value="Scss.placeholder.selector" />

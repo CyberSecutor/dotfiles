@@ -18,11 +18,13 @@
     <notification groupId="PHP-CGI Server" displayType="STICKY_BALLOON" />
     <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="PHP Profiler" />
+    <notification groupId="Common Version Control Messages" displayType="TOOL_WINDOW" />
     <toolWindow group="Git Messages" />
     <toolWindow group="FindInPath" />
     <toolWindow group="PHP Debugger" />
     <toolWindow group="Database view" />
     <toolWindow group="Debugger messages" />
+    <toolWindow group="Common Version Control Messages" />
   </component>
 </application>
 
